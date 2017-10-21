@@ -28,6 +28,7 @@ body {
 
 .styletileheader {
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .colorchip {
@@ -59,9 +60,36 @@ body {
 #whitechip {
     background-color: #ffffff;
 }
+
+.texturechip {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-width: 5px;
+    box-shadow: 5px 5px 5px #d9d9d9;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#woodtexture {
+    background-image: url("../img/woodtexture.jpg");
+    background-size: 300px;
+}
+
+#bricktexture {
+    background-image: url("../img/bricktexture.jpg");
+    background-size: 400px;
+}
+
+#watercolortexture {
+    background-image: url("../img/watercolortexture.jpg");
+    background-size: 200px;
+}
 h1 {
     font-family: 'Playfair Display';
     font-weight: 700;
+    color: #772f1a;
 }
 h2 {
     font-family: 'Source Sans Pro';
