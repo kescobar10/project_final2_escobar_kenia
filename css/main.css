@@ -181,6 +181,11 @@ ul li {
     letter-spacing: 3px;
     padding: 5px;
 }
+#keywords {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
 
 /**** Media Queries ****/
 
@@ -214,9 +219,7 @@ ul li {
     #main {
         clear: both;
     }
-}
-
-/**** 1024px ****/
-@media (min-width: 1024px) {
-
+    .styletileheader {
+        text-align: center;
+    }
 }
