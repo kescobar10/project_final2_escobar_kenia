@@ -110,6 +110,10 @@ button {
     border: solid;
     border-color: #ffffff;
     border-width: 1px;
+    display: block;
+    margin: auto;
+}
+#button {
     margin-top: 40px;
 }
 button:hover {
@@ -143,9 +147,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-#keywords {
 
-}
 ul li {
     list-style-type: none;
     font-family: 'Source Sans Pro';
@@ -154,6 +156,17 @@ ul li {
     letter-spacing: 3px;
     padding: 5px;
 }
-ul {
+@@media all and (min-width: 768px) {
+    #color-texture-wrapper {
 
+    }
+    #colors-wrapper {
+        max-width: 300px;
+        float: left;
+        clear:both;
+    }
+    #textures-wrapper {
+        max-width: 300px;
+        float: right;
+    }
 }
