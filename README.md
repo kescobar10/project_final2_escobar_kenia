@@ -14,3 +14,4 @@ I reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
 I changed the layout of my style tile after my class presentation, and added more white space between sections to make it look less crowded. I had some trouble with my desktop view. Originally, I wanted some elements to be inline and have them side by side, but I ended up changing my style tile design to keep most things as block elements taking up the whole width of the container, specifically the color and texture chips, and section with the sample headers and text styles. Overall, I think the prototype looks good at any width. Also, I couldn't figure out Adobe Typekit fonts as I had discussed in class, so I ended up using Google Fonts.
+The W3 validator again showed a stray script tag that I couldn't find.
