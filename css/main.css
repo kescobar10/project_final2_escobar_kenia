@@ -156,17 +156,19 @@ ul li {
     letter-spacing: 3px;
     padding: 5px;
 }
-@@media all and (min-width: 768px) {
+@media (min-width: 768px) {
     #color-texture-wrapper {
-
+        display: flex;
     }
     #colors-wrapper {
-        max-width: 300px;
-        float: left;
-        clear:both;
+        width: 49%;
+
     }
     #textures-wrapper {
-        max-width: 300px;
-        float: right;
+        width: 49%;
+    }
+    ul li {
+        display: inline;
+        padding: 20px;
     }
 }
