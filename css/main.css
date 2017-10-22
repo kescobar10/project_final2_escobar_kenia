@@ -1,6 +1,17 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 body {
     background-color: #ede4d5;
 }
+
  /**** Big Container ****/
 #container {
     max-width: 1000px;
@@ -172,6 +183,8 @@ ul li {
 }
 
 /**** Media Queries ****/
+
+/**** 768px ****/
 @media (min-width: 768px) {
     #color-texture-wrapper {
         display: flex;
@@ -201,5 +214,9 @@ ul li {
     #main {
         clear: both;
     }
+}
+
+/**** 1024px ****/
+@media (min-width: 1024px) {
 
 }
