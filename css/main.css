@@ -23,7 +23,7 @@ body {
 
 #logo {
     width: 75%;
-    max-width: 250px;
+    max-width: 200px;
     margin-top: 20px;
 }
 
@@ -186,6 +186,20 @@ ul li {
     ul li {
         display: inline;
         padding: 20px;
+    }
+    #logo {
+        float: left;
+        box-shadow: 2px 2px 2px #d9d9d9;
+    }
+    #header {
+        padding-bottom: 50px;
+        margin-bottom: 25px;
+    }
+    #title {
+        padding-top: 50px;
+    }
+    #main {
+        clear: both;
     }
 
 }
